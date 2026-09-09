@@ -19,4 +19,3 @@ def search_logs(keyword, log_file=LOG_PATH):
     except FileNotFoundError:
         print("Log file not found.")
 
-search_logs("User")
